@@ -1,0 +1,40 @@
+{
+  "name": "strapi-backend",
+  "private": true,
+  "description": "A strapi backend api",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {
+    "sqlite3": "^5.0.0"
+  },
+  "dependencies": {
+    "knex": "<0.20.0",
+    "pg": "^8.3.0",
+    "strapi": "3.1.1",
+    "strapi-admin": "3.1.1",
+    "strapi-connector-bookshelf": "3.1.1",
+    "strapi-plugin-content-manager": "3.1.1",
+    "strapi-plugin-content-type-builder": "3.1.1",
+    "strapi-plugin-email": "3.1.1",
+    "strapi-plugin-upload": "3.1.1",
+    "strapi-plugin-users-permissions": "3.1.1",
+    "strapi-provider-upload-cloudinary": "^3.1.1",
+    "strapi-utils": "3.1.1"
+  },
+  "author": {
+    "name": "souhaib-benbouzid",
+    "github": "http://github.com/souhaib-Benbouzid"
+  },
+  "strapi": {
+    "uuid": "b4b00e9a-58ef-45b4-9b32-ad010884e34d"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
