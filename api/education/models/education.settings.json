@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "educations",
+  "info": {
+    "name": "education"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "university": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "startdate": {
+      "type": "date"
+    },
+    "enddate": {
+      "type": "date"
+    }
+  }
+}
